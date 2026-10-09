@@ -12,6 +12,7 @@ export interface TimelineItem {
   when: Localized<string>
   title: Localized<string>
   subtitle?: Localized<string>
+  url?: string
   description: Localized<string>
   bullets?: Localized<string[]>
 }

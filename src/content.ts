@@ -1,7 +1,7 @@
 // Conteúdo do portfólio — edite aqui.
 import type { Certification, Localized, Project, TimelineItem } from './types'
 
-export const email = 'joao.cabral@vexur.net'
+export const email = 'jp660595@gmail.com'
 export const linkedin = 'https://www.linkedin.com/in/jo%C3%A3o-pedro-cabral-pavarin-4341012b3/'
 export const github = 'https://github.com/sleeperCoderZzZ'
 
@@ -99,9 +99,10 @@ export const timeline: TimelineItem[] = [
     when: { pt: 'jun. 2023 — presente', en: 'Jun 2023 — present' },
     title: { pt: 'Desenvolvedor Full Stack', en: 'Full Stack Developer' },
     subtitle: { pt: 'Vexur · Tempo integral', en: 'Vexur · Full-time' },
+    url: 'https://vexur.net/',
     description: {
-      pt: 'Sistemas críticos de alta complexidade em uma plataforma de gestão para saúde suplementar (HealthTech/SaaS), com arquitetura de microsserviços.',
-      en: 'Critical, high-complexity systems on a health-insurance management platform (HealthTech/SaaS) built on microservices.',
+      pt: 'A Vexur é uma startup de tecnologia para o setor de saúde e seguros, com foco em gestão de benefícios. Sua plataforma integrada cobre toda a jornada comercial: vendas online, assinatura eletrônica, análise e aprovação automatizada, implantação, gestão financeira (faturamento, boletos e cobrança), atendimento, comissionamento e portais do corretor e do cliente. Atende administradoras de benefícios, operadoras de saúde, clubes de benefícios, entidades de classe e corretoras.',
+      en: 'Vexur is a technology startup for the health and insurance sector, focused on benefits management. Its integrated platform covers the whole commercial journey: online sales, e-signature, automated analysis and approval, onboarding, financial management (invoicing, payment slips and collections), customer service, commissioning, and broker and customer portals. It serves benefits administrators, health insurers, benefits clubs, trade associations and brokerages.',
     },
     bullets: {
       pt: [
