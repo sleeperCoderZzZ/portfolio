@@ -17,12 +17,12 @@ export const skills: Localized<string>[] = [
 
 export const projects: Project[] = [
   {
-    url: `${github}/tcc-assistente-percepcao-ambiental`,
-    tags: ['JavaScript', 'TCC'],
-    title: { pt: 'TCC — Assistente de percepção ambiental', en: 'Thesis — Environmental perception assistant' },
+    url: `${github}/assistente-percepcao-ambiental`,
+    tags: ['JavaScript', 'IA'],
+    title: { pt: 'Assistente de percepção ambiental', en: 'Environmental perception assistant' },
     description: {
-      pt: 'Trabalho de conclusão de curso: um assistente voltado à percepção ambiental.',
-      en: 'Final course project: an assistant focused on environmental perception.',
+      pt: 'um assistente voltado à percepção ambiental.',
+      en: 'An assistant focused on environmental perception.',
     },
   },
   {
@@ -50,24 +50,6 @@ export const projects: Project[] = [
     description: {
       pt: 'Exercícios e práticas do curso de JavaScript da DIO.',
       en: 'Exercises and practice from the DIO JavaScript course.',
-    },
-  },
-  {
-    url: `${github}/curso-full-stack`,
-    tags: ['JavaScript', 'Full Stack'],
-    title: { pt: 'Curso Full Stack', en: 'Full Stack course' },
-    description: {
-      pt: 'Materiais e prática do curso de desenvolvimento full stack.',
-      en: 'Materials and practice from the full-stack development course.',
-    },
-  },
-  {
-    url: `${github}/frontend-design-curso`,
-    tags: ['Front-end', 'Design'],
-    title: { pt: 'Design de front-end', en: 'Front-end design' },
-    description: {
-      pt: 'Aprimoramento na criação de design de aplicações web.',
-      en: 'Improving the design of web applications.',
     },
   },
 ]
