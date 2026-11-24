@@ -17,6 +17,33 @@ export const skills: Localized<string>[] = [
 
 export const projects: Project[] = [
   {
+    url: 'https://fofocandodev.com.br/',
+    tags: ['React', 'TypeScript', 'Vite'],
+    title: { pt: 'Fofocando Dev', en: 'Fofocando Dev' },
+    description: {
+      pt: 'Blog de tecnologia que criei com Utida para contar as novidades do mundo dev em tom de fofoca.',
+      en: 'A tech blog I co-created with Utida that covers developer news in a conversational style.',
+    },
+  },
+  {
+    url: `${github}/grok-orquestrador`,
+    tags: ['Shell', 'IA'],
+    title: { pt: 'Grok Orquestrador', en: 'Grok Orchestrator' },
+    description: {
+      pt: 'Pipeline que coordena agentes de IA para levantamento de requisitos, implementação, revisão e QA.',
+      en: 'A pipeline that coordinates AI agents for requirements discovery, implementation, review, and QA.',
+    },
+  },
+  {
+    url: `${github}/curso-fullstack-dio`,
+    tags: ['Full Stack'],
+    title: { pt: 'Curso Full Stack (DIO)', en: 'Full Stack course (DIO)' },
+    description: {
+      pt: 'Repositório de estudos do curso Full Stack da DIO.',
+      en: 'Study repository for the DIO Full Stack course.',
+    },
+  },
+  {
     url: `${github}/assistente-percepcao-ambiental`,
     tags: ['JavaScript', 'IA'],
     title: { pt: 'Assistente de percepção ambiental', en: 'Environmental perception assistant' },
